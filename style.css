@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: revert;
   padding: 0;
 }
 
@@ -10,8 +10,8 @@ body {
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 90%;
+  margin: 20px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -27,7 +27,6 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 
 .form-group {
@@ -60,13 +59,14 @@ input[type="text"]:focus {
 
 button[type="submit"] {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   background-color: #007bff;
   color: #fff;
-  font-weight: 500;
+  font-weight: bolder;
+  font-size:  x-large;
 }
 
 #search-results-container {
@@ -78,7 +78,7 @@ button[type="submit"] {
 
 .movies-container {
   width: 100%;
-  max-width: 800px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -111,7 +111,11 @@ button[type="submit"] {
 
 .movie-year,
 .movie-genre,
-.movie-rating {
+.movie-rating,
+.movie-star {
   font-size: 16px;
   margin: 0;
+}
+.movie-star {
+  font-size: xx-large;
 }
