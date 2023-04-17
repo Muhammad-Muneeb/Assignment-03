@@ -1,121 +1,122 @@
 * {
-  box-sizing: border-box;
-  margin: revert;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  max-width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    widows: 100%;
+    text-align: center;
+    height: 100vh;
 }
 
-h1 {
-  margin-bottom: 20px;
-  text-align: center;
+.topDiv {
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 80%;
+    /* background-color: red; */
+    height: auto;
+    margin: auto;
 }
 
-form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-weight: 900;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 14px;
 }
 
-.form-group {
-  width: calc(33.33% - 10px);
-  margin-bottom: 10px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-select,
-input[type="text"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-  transition: border-color 0.2s ease-in-out;
-}
-
-select:focus,
-input[type="text"]:focus {
-  outline: none;
-  border-color: #007bff;
-}
-
-button[type="submit"] {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: #fff;
-  font-weight: bolder;
-  font-size:  x-large;
-}
-
-#search-results-container {
-    margin-top: 30px;
-    padding: 20px;
-    background-color: #f5f5f5;
+.dropdown {
+    width: 200px;
+    margin-left: 20px;
+    height: 25px;
     border-radius: 5px;
 }
 
-.movies-container {
-  width: 100%;
-  max-width: 90%;
-  margin: 0 auto;
+.ratingDiv {
+    margin: auto;
+    width: 80%;
+
 }
 
-.movies-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.RatingDropdown {
+    width: 98.5%;
+    margin-left: 20px;
+    height: 25px;
+    border-radius: 5px;
 }
 
-.movie-item {
-  display: flex;
-  margin-bottom: 20px;
+.table {
+    width: 98%;
+    margin: auto;
+    justify-content: space-between;
 }
 
-.movie-item img {
-  width: 150px;
-  height: 200px;
-  margin-right: 20px;
+.heading1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-weight: 900;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 10px;
+    width: 6%;
 }
 
-.movie-info {
-  display: flex;
-  flex-direction: column;
+.heading2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-weight: 900;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 14px;
+    width: 60%;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 10px;
 }
 
-.movie-title {
-  font-size: 24px;
-  margin: 0 0 10px 0;
+.tabRow {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
 }
 
-.movie-year,
-.movie-genre,
-.movie-rating,
-.movie-star {
-  font-size: 16px;
-  margin: 0;
+.tabRow1 {
+    text-align: left;
+    border-bottom: 1px solid gray;
+    padding: 10px;
 }
-.movie-star {
-  font-size: xx-large;
+
+.btn {
+    padding: 6px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #0B5ED7;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border-color: #0B5ED7;
+    float: right;
+}
+
+.movieName {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0B5ED7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.movieGenre {
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
